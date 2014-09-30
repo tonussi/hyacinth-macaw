@@ -1,0 +1,130 @@
+#N canvas 829 170 450 583 10;
+#X obj 220 201 vsl 8 35 0 127 0 0 empty empty empty 0 -9 0 10 -1 -4032
+-1 0 0;
+#X obj 260 201 vsl 8 35 0 127 0 0 empty empty empty 0 -9 0 10 -1 -4032
+-1 0 0;
+#X obj 210 201 vsl 8 35 0 127 0 0 empty empty empty 0 -9 0 10 -1 -4032
+-1 0 0;
+#X obj 200 201 vsl 8 35 0 127 0 0 empty empty empty 0 -9 0 10 -1 -4032
+-1 0 0;
+#X obj 180 201 vsl 8 35 0 127 0 0 empty empty empty 0 -9 0 10 -1 -4032
+-1 0 0;
+#X obj 170 201 vsl 8 35 0 127 0 0 empty empty empty 0 -9 0 10 -1 -4032
+-1 0 0;
+#X obj 160 201 vsl 8 35 0 127 0 0 empty empty empty 0 -9 0 10 -1 -4032
+-1 0 0;
+#X obj 150 201 vsl 8 35 0 127 0 0 empty empty empty 0 -9 0 10 -1 -4032
+-1 0 0;
+#X obj 140 201 vsl 8 35 0 127 0 0 empty empty empty 0 -9 0 10 -1 -4032
+-1 0 0;
+#X obj 130 201 vsl 8 35 0 127 0 0 empty empty empty 0 -9 0 10 -1 -4032
+-1 0 0;
+#X obj 120 201 vsl 8 35 0 127 0 0 empty empty empty 0 -9 0 10 -1 -4032
+-1 0 0;
+#X obj 110 201 vsl 8 35 0 127 0 0 empty empty empty 0 -9 0 10 -1 -4032
+-1 0 0;
+#X obj 240 201 vsl 8 35 0 127 0 0 empty empty empty 0 -9 0 10 -1 -4032
+-1 0 0;
+#X obj 230 201 vsl 8 35 0 127 0 0 empty empty empty 0 -9 0 10 -1 -4032
+-1 0 0;
+#X obj 190 201 vsl 8 35 0 127 0 0 empty empty empty 0 -9 0 10 -1 -4032
+-1 0 0;
+#X obj 250 201 vsl 8 35 0 127 0 0 empty empty empty 0 -9 0 10 -1 -4032
+-1 0 0;
+#X obj 110 189 bng 8 250 50 0 empty empty empty 17 7 0 10 -1 -4032
+-1;
+#X obj 120 189 bng 8 250 50 0 empty empty empty 17 7 0 10 -1 -4032
+-1;
+#X obj 130 189 bng 8 250 50 0 empty empty empty 17 7 0 10 -1 -4032
+-1;
+#X obj 140 189 bng 8 250 50 0 empty empty empty 17 7 0 10 -1 -4032
+-1;
+#X obj 150 189 bng 8 250 50 0 empty empty empty 17 7 0 10 -1 -4032
+-1;
+#X obj 160 189 bng 8 250 50 0 empty empty empty 17 7 0 10 -1 -4032
+-1;
+#X obj 170 189 bng 8 250 50 0 empty empty empty 17 7 0 10 -1 -4032
+-1;
+#X obj 180 189 bng 8 250 50 0 empty empty empty 17 7 0 10 -1 -4032
+-1;
+#X obj 190 189 bng 8 250 50 0 empty empty empty 17 7 0 10 -1 -4032
+-1;
+#X obj 200 189 bng 8 250 50 0 empty empty empty 17 7 0 10 -1 -4032
+-1;
+#X obj 210 189 bng 8 250 50 0 empty empty empty 17 7 0 10 -1 -4032
+-1;
+#X obj 220 189 bng 8 250 50 0 empty empty empty 17 7 0 10 -1 -4032
+-1;
+#X obj 230 189 bng 8 250 50 0 empty empty empty 17 7 0 10 -1 -4032
+-1;
+#X obj 240 189 bng 8 250 50 0 empty empty empty 17 7 0 10 -1 -4032
+-1;
+#X obj 250 189 bng 8 250 50 0 empty empty empty 17 7 0 10 -1 -4032
+-1;
+#X obj 260 189 bng 8 250 50 0 empty empty empty 17 7 0 10 -1 -4032
+-1;
+#X obj 110 -136 inlet;
+#X obj 120 -126 inlet;
+#X obj 130 -116 inlet;
+#X obj 140 -106 inlet;
+#X obj 150 -96 inlet;
+#X obj 160 -86 inlet;
+#X obj 170 -76 inlet;
+#X obj 180 -66 inlet;
+#X obj 190 -56 inlet;
+#X obj 200 -46 inlet;
+#X obj 210 -36 inlet;
+#X obj 220 -26 inlet;
+#X obj 230 -16 inlet;
+#X obj 240 -6 inlet;
+#X obj 250 4 inlet;
+#X obj 260 14 inlet;
+#X obj 110 313 outlet;
+#X obj 120 323 outlet;
+#X obj 130 333 outlet;
+#X obj 140 343 outlet;
+#X obj 150 353 outlet;
+#X obj 160 363 outlet;
+#X obj 170 373 outlet;
+#X obj 180 383 outlet;
+#X obj 190 393 outlet;
+#X obj 200 403 outlet;
+#X obj 210 413 outlet;
+#X obj 220 423 outlet;
+#X obj 230 433 outlet;
+#X obj 240 443 outlet;
+#X obj 250 453 outlet;
+#X obj 260 463 outlet;
+#X connect 0 0 59 0;
+#X connect 1 0 63 0;
+#X connect 2 0 58 0;
+#X connect 3 0 57 0;
+#X connect 4 0 55 0;
+#X connect 5 0 54 0;
+#X connect 6 0 53 0;
+#X connect 7 0 52 0;
+#X connect 8 0 51 0;
+#X connect 9 0 50 0;
+#X connect 10 0 49 0;
+#X connect 11 0 48 0;
+#X connect 12 0 61 0;
+#X connect 13 0 60 0;
+#X connect 14 0 56 0;
+#X connect 15 0 62 0;
+#X connect 32 0 16 0;
+#X connect 33 0 17 0;
+#X connect 34 0 18 0;
+#X connect 35 0 19 0;
+#X connect 36 0 20 0;
+#X connect 37 0 21 0;
+#X connect 38 0 22 0;
+#X connect 39 0 23 0;
+#X connect 40 0 24 0;
+#X connect 41 0 25 0;
+#X connect 42 0 26 0;
+#X connect 43 0 27 0;
+#X connect 44 0 28 0;
+#X connect 45 0 29 0;
+#X connect 46 0 30 0;
+#X connect 47 0 31 0;
+#X coords 0 -1 1 1 285 145 2 100 100;
