@@ -1,4 +1,4 @@
-#N canvas 139 118 1203 481 10;
+#N canvas 83 254 1203 481 10;
 #N canvas 462 116 557 524 help 0;
 #X text 105 102 Help :: a_compound;
 #X text 104 127 To use the a_compound is really simple. To create one
@@ -24,9 +24,9 @@ to use.;
 #X text 105 445 Lucas Tonussi 2014 (John 5:24);
 #X coords 0 -1 1 1 370 370 2 100 100;
 #X restore -833 -11476 pd help;
-#X obj -1249 -11476 a_compound;
 #X obj -509 -11099 LICENSE;
-#X obj -1249 -11238 a_compound;
+#X obj -1249 -11476 a_compound;
 #X obj -1636 -11476 a_compound;
+#X obj -1249 -11238 a_compound;
 #X obj -1636 -11238 a_compound;
 #X coords 0 0 1 1 85 60 0;
