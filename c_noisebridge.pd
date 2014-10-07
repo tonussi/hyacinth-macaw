@@ -1,6 +1,7 @@
-#N canvas 83 254 1203 481 10;
-#N canvas 462 116 557 524 help 0;
+#N canvas 87 258 1203 481 10;
+#N canvas 460 121 557 524 help 0;
 #X text 105 102 Help :: a_compound;
+#X text 105 445 Lucas Tonussi 2014 (John 5:24);
 #X text 104 127 To use the a_compound is really simple. To create one
 you type ctrl+1 and type inside the box a_compound this is a compound
 to make sound trought Zynaddsubfx or any other midi synthetizer you
@@ -15,13 +16,12 @@ Velocity \, Channel is a box to control the makenote object (pd's native)
 \, quite simple right ? The randseq is a box to make random values
 to the sequencer multiplications its another way to make combinations
 and create diferente compositions. The box bellow its a box to start
-the compound \, it contains a simple metronome from 100 to 5000 The
-left is a keyboard with 16 keys \, each key have from 1 to 127 midinotes
-\, each key also have a upper led signalling that the key are being
-played or not. This piano have at his top a meckanism to make random
-note positions and to make this continously (with a metronome). Easy
-to use.;
-#X text 105 445 Lucas Tonussi 2014 (John 5:24);
+the compound \, it contains a simple bpm that set values from 750 (left)
+to 122 (right). The left is a keyboard with 16 keys \, each key have
+from 1 to 127 midinotes \, each key also have a upper led signalling
+that the key are being played or not. This piano have at his top a
+meckanism to make random note positions and to make this continously
+(with a metronome). Easy to use.;
 #X coords 0 -1 1 1 370 370 2 100 100;
 #X restore -833 -11476 pd help;
 #X obj -509 -11099 LICENSE;

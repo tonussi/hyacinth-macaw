@@ -112,47 +112,49 @@
 #X obj 32 384 <<;
 #X obj 112 188 a_randgrid;
 #N canvas 39 54 1327 714 makenote_control 0;
-#X obj 141 120 knob 20 20 0 100 0 0 empty empty empty 0 -8 0 8 -262144
--259329 -1 0 1;
-#X obj 107 120 knob 20 20 100 500 0 0 empty empty empty 0 -8 0 8 -262144
--259329 -1 0 1;
+#X obj 141 120 knob 20 20 1 100 0 0 empty empty empty 0 -8 0 8 -262144
+-259329 -1 700 0;
+#X obj 107 120 knob 20 20 1 500 0 0 empty empty empty 0 -8 0 8 -262144
+-259329 -1 600 0;
 #X obj 166 130 hradio 12 1 0 4 empty empty empty 0 -8 0 10 -228856
 -1 -1 0;
-#X obj 107 500 outlet;
-#X obj 204 456 outlet;
-#X obj 366 265 outlet;
+#X obj -305 366 outlet;
+#X obj 141 554 outlet;
+#X obj 437 285 outlet;
 #X text 137 101 Velocity;
 #X text 103 101 Delay;
 #X floatatom 215 128 2 0 0 0 - - -;
 #X obj 274 126 + 1;
 #X text 164 113 Zyn Channel;
-#X connect 0 0 4 0;
-#X connect 1 0 3 0;
+#X obj -305 332 expr ceil($f1 \, 0);
+#X obj 141 525 expr ceil($f1 \, 0);
+#X connect 0 0 12 0;
+#X connect 1 0 11 0;
 #X connect 2 0 9 0;
 #X connect 2 0 5 0;
 #X connect 9 0 8 0;
+#X connect 11 0 3 0;
+#X connect 12 0 4 0;
 #X coords 0 -1 1 1 135 55 2 100 100;
 #X restore 122 262 pd makenote_control;
-#N canvas 609 281 450 300 metronumber 1;
+#N canvas 151 127 860 555 metronumber 0;
 #X obj 101 101 cnv 15 153 58 empty empty empty 20 12 0 14 -1 -4032
 0;
-#X obj 110 140 hsl 128 8 122 1000 0 0 empty empty empty -2 -8 0 10
--33289 -4032 -203904 5400 0;
+#X obj 110 140 hsl 128 8 80 500 0 0 empty empty empty -2 -8 0 10 -33289
+-4032 -203904 0 0;
 #X obj 186 121 nbx 5 15 122 1000 1 1 empty empty Bpm 11 -8 0 12 -1
--4032 -203904 495 256;
+-4032 -203904 750 256;
 #X obj 307 342 outlet;
 #X obj 107 107 tgl 15 0 empty empty Toggle 17 7 0 10 -33289 -4032 -203904
 0 1;
-#X obj -19 342 outlet;
+#X obj -179 213 outlet;
 #X obj 178 121 h_blacksquare;
 #X text 295 126 Lucas Tonussi 2014;
-#X obj 307 304 expr 60000 / $f1;
-#X obj 186 -74 i;
+#X obj 307 305 expr floor (60000 / floor ($f1 \, 0) \, 0);
 #X connect 1 0 8 0;
-#X connect 1 0 9 0;
 #X connect 4 0 5 0;
 #X connect 8 0 3 0;
-#X connect 9 0 2 0;
+#X connect 8 0 2 0;
 #X coords 0 -1 1 1 155 60 2 100 100;
 #X restore 112 119 pd metronumber;
 #X obj 516 987 c_makenote;
