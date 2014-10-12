@@ -1,4 +1,4 @@
-#N canvas 475 224 790 367 10;
+#N canvas 473 229 790 367 10;
 #N canvas 794 228 450 525 listrand 0;
 #X obj 83 65 inlet;
 #X msg 83 121 seed \$1;
@@ -92,12 +92,12 @@
 #X obj 125 398 outlet;
 #X obj 135 408 outlet;
 #X obj 152 108 bng 15 250 50 0 empty empty Toggle 17 7 0 10 -33289
--4032 -1;
+-4034 -159808;
 #X obj 312 304 metro;
 #X obj 155 147 hsl 90 8 80 500 0 0 empty empty Bpm -2 -8 0 10 -33289
--4032 -1 8900 0;
-#X obj 211 108 tgl 36 1 empty empty Always -40 21 0 10 -33289 -4032
--1 0 1;
+-4034 -159808 8900 0;
+#X obj 211 108 tgl 36 1 empty empty Always -40 21 0 10 -33289 -4034
+-159808 0 1;
 #X obj 398 212 init 500;
 #X obj 397 254 expr floor (60000 / floor ($f1 \, 0) \, 0);
 #X floatatom 397 305 5 0 0 0 - - -;
