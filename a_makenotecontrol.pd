@@ -1,15 +1,15 @@
-#N canvas 442 223 450 300 10;
+#N canvas 438 233 886 300 10;
 #X obj 147 123 knob 22 22 1 100 0 1 empty empty Velocity 0 -8 0 8 -262144
--159808 -33289 0 1;
+-159808 -33289 700 1;
 #X obj 109 123 knob 22 22 1 500 0 1 empty empty Delay 0 -8 0 8 -262144
--159808 -1 0 1;
+-159808 -1 400 1;
 #X obj 178 139 hradio 12 1 0 4 empty empty Zyn-channel 0 -8 0 10 -228856
 -33289 -33289 0;
 #X obj -295 376 outlet;
 #X obj 151 564 outlet;
 #X obj 447 295 outlet;
 #X floatatom 227 137 2 0 0 0 - - -;
-#X obj 284 141 + 1;
+#X obj 608 151 + 1;
 #X obj -295 342 expr ceil($f1 \, 0);
 #X obj 151 535 expr ceil($f1 \, 0);
 #X connect 0 0 9 0;

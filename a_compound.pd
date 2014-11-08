@@ -1,4 +1,4 @@
-#N canvas 39 54 1327 714 10;
+#N canvas 37 111 1327 685 10;
 #X msg 544 -563 1;
 #X obj 544 -539 +;
 #X obj 219 -412 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -110,7 +110,7 @@
 #X obj 100 384 <<;
 #X obj 67 384 <<;
 #X obj 32 384 <<;
-#X obj 112 188 a_randgrid;
+#X obj 119 185 a_randgrid;
 #X obj 516 987 c_makenote;
 #X obj 299 212 a_piano16;
 #X obj 287 111 a_randseqbars;
