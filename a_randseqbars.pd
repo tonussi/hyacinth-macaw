@@ -1,4 +1,4 @@
-#N canvas 39 54 1327 714 10;
+#N canvas 31 19 1325 690 10;
 #X obj 108 144 hsl 35 8 1 15 0 0 empty empty empty -2 -8 0 10 -33289
 -4034 -159808 0 0;
 #X obj 151 144 hsl 35 8 1 15 0 0 empty empty empty -2 -8 0 10 -33289
@@ -26,7 +26,7 @@
 #X obj 194 166 hsl 35 8 1 15 0 0 empty empty empty -2 -8 0 10 -33289
 -4034 -159808 0 0;
 #X obj 237 166 hsl 35 8 1 15 0 0 empty empty empty -2 -8 0 10 -33289
--4034 -159808 2600 0;
+-4034 -159808 0 0;
 #X obj 194 177 hsl 35 8 1 15 0 0 empty empty empty -2 -8 0 10 -33289
 -4034 -159808 0 0;
 #X obj 237 177 hsl 35 8 1 15 0 0 empty empty empty -2 -8 0 10 -33289
@@ -98,9 +98,9 @@
 #X obj -348 124 metro;
 #X obj 108 133 hsl 164 8 80 500 0 0 empty empty Bpm -2 -8 0 10 -33289
 -4034 -159808 16300 0;
-#X obj -321 203 expr floor (60000 / floor ($f1 \, 0) \, 0);
 #X obj 46 44 init 500;
-#X floatatom -321 246 5 0 0 0 - - -;
+#X floatatom -321 246 5 0 0 0 - - -, f 5;
+#X obj -321 203 expr floor (60000 / floor ($f1));
 #X connect 0 0 22 0;
 #X connect 1 0 23 0;
 #X connect 2 0 26 0;
@@ -140,8 +140,8 @@
 #X connect 21 0 16 2;
 #X connect 38 0 39 0;
 #X connect 39 0 17 0;
-#X connect 40 0 41 0;
-#X connect 41 0 39 1;
-#X connect 41 0 43 0;
-#X connect 42 0 40 0;
+#X connect 40 0 43 0;
+#X connect 41 0 40 0;
+#X connect 43 0 39 1;
+#X connect 43 0 42 0;
 #X coords 0 -1 1 1 180 90 2 100 100;

@@ -1,18 +1,18 @@
-#N canvas 389 193 871 490 10;
+#N canvas 379 183 871 490 10;
 #X obj 101 101 cnv 15 153 58 empty empty empty 20 8 0 14 -33289 -4034
 0;
 #X obj 110 140 hsl 128 8 6 240 0 1 empty empty empty -2 -8 0 10 -33289
 -4034 -203904 11400 1;
 #X obj 305 348 outlet;
 #X obj 107 107 tgl 25 0 empty empty Toggle 30 6 0 10 -33289 -4034 -203904
-1 1;
+0 1;
 #X obj -179 213 outlet;
 #X text 452 484 Lucas Tonussi 2014;
-#X obj 305 306 expr floor (60000 / $f1 \, 0);
 #X obj 195 118 nbx 5 14 250 10000 0 0 empty empty BPM:6-240 0 -8 0
-10 -33289 -4034 -4034 277 256;
-#X connect 1 0 6 0;
+10 -33289 -4034 -4034 250 256 0;
+#X obj 305 306 expr floor (60000 / $f1);
+#X connect 1 0 7 0;
 #X connect 3 0 4 0;
-#X connect 6 0 2 0;
-#X connect 6 0 7 0;
+#X connect 7 0 2 0;
+#X connect 7 0 6 0;
 #X coords 0 -1 1 1 155 60 2 100 100;
